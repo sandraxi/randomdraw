@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "length": 12.5,
+        "height": 12.5,
+        "width": 12.5,
+        "img": "Drawing_044.jgp"
+    },
+    {
+        "id": 2,
+        "length": 35.6,
+        "height": 3.7,
+        "width": 35.6,
+        "img": "Drawing_045.jpg"
+    },
+    {
+        "id": 3,
+        "length": 20.8,
+        "height": 20.8,
+        "width": 20.8,
+        "img": "Drawing_046.jpg"
+    },
+    {
+        "id": 4,
+        "length": 3.7,
+        "height": 3.7,
+        "width": 3.7,
+        "img": "Drawing_047.jpg"
+    },
+    {
+        "id": 5,
+        "length": 15.7,
+        "height": 15.7,
+        "width": 15.7,
+        "img": "Drawing_048.jpg"
+    }
+]

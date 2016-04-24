@@ -1,3 +1,51 @@
+var data = [{
+        "id": 1,
+        "length": 12.5,
+        "height": 12.5,
+        "width": 12.5,
+        "img": "Drawing_044.jpg"
+    },
+    {
+        "id": 2,
+        "length": 35.6,
+        "height": 3.7,
+        "width": 35.6,
+        "img": "Drawing_045.jpg"
+    },
+    {
+        "id": 3,
+        "length": 20.8,
+        "height": 20.8,
+        "width": 20.8,
+        "img": "Drawing_046.jpg"
+    },
+    {
+        "id": 4,
+        "length": 3.7,
+        "height": 3.7,
+        "width": 3.7,
+        "img": "Drawing_047.jpg"
+    },
+    {
+        "id": 5,
+        "length": 15.7,
+        "height": 15.7,
+        "width": 15.7,
+        "img": "Drawing_048.jpg"
+    }];
+
+    /* Render sections from data */
+    /* var template = document.getElementById('section').innerHTML;*/
+    function myFunction() {
+    var rheight = data[Math.floor(Math.random() * data.length)].height;
+    var rlength = data[Math.floor(Math.random() * data.length)].length;
+    var rwidth = data[Math.floor(Math.random() * data.length)].width;
+    var rimg = data[Math.floor(Math.random() * data.length)].img;
+    document.getElementById('height').innerHTML = "heigth: "+rheight;
+    document.getElementById('length').innerHTML = "length: "+rlength;
+    document.getElementById('width').innerHTML = "width: "+rwidth;
+    document.getElementById("myImg").src = "img/640/"+rimg;
+  }
 /* Save reference to sections */
 var sections = document.documentElement.querySelectorAll('section');
 
